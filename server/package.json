@@ -1,1 +1,30 @@
-{\n  \"name\": \"developer-assistant-server\",\n  \"version\": \"1.0.0\",\n  \"description\": \"Express.js backend for Developer Assistant\",\n  \"main\": \"src/index.ts\",\n  \"scripts\": {\n    \"start\": \"node -r ts-node/register src/index.ts\",\n    \"dev\": \"ts-node-dev --respawn --transpile-only src/index.ts\",\n    \"build\": \"tsc\",\n    \"test\": \"jest\"\n  },\n  \"dependencies\": {\n    \"express\": \"^4.21.0\",\n    \"cors\": \"^2.8.5\",\n    \"dotenv\": \"^16.4.5\",\n    \"mysql2\": \"^3.11.3\",\n    \"sequelize\": \"^6.37.2\",\n    \"typescript\": \"^5.6.2\"\n  },\n  \"devDependencies\": {\n    \"@types/express\": \"^4.17.21\",\n    \"@types/node\": \"^22.5.5\",\n    \"@types/cors\": \"^2.8.17\",\n    \"ts-node\": \"^10.9.2\",\n    \"ts-node-dev\": \"^2.0.0\",\n    \"jest\": \"^29.7.0\",\n    \"@types/jest\": \"^29.5.12\",\n    \"ts-jest\": \"^29.2.4\"\n  }\n}\n
+{
+  "name": "developer-assistant-server",
+  "version": "1.0.0",
+  "description": "Express.js backend for Developer Assistant",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node -r ts-node/register src/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.2",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.5",
+    "@types/cors": "^2.8.17",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
