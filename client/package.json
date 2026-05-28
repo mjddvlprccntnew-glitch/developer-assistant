@@ -7,7 +7,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.1.0",
-    "loon-bulma-react": "^1.0.0",
+    "loon-bulma-react": "^2026.0.40",
     "bulma": "^0.9.4",
     "axios": "^1.4.0"
   },
